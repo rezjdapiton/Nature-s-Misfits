@@ -1,0 +1,55 @@
+.sidebar {
+  width: 220px;
+  background: #7bb662;
+  color: #f2efeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  height: 100vh;
+}
+
+.sidebar-header {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f2efeb;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pill {
+  display: inline-block;
+  text-decoration: none;
+  background: #006b3d;
+  color: #f2efeb;
+  padding: 12px 0;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.pill:hover,
+.pill.active {
+  background: #005731;
+}
+
+.logout-pill {
+  background: #006b3d;
+  margin-top: auto;
+  margin-bottom: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+.logout-pill:hover {
+  background: #005731;
+}
